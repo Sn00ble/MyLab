@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: 400 32px/1 'Playfair Display', sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1830px;
+    margin: auto;
+    
+  }
+  
+  .header {
+    background: #B8BDB1;
+    padding: 30px 0;
+  }
+  
+  .main-header-nav {
+    color: #000;
+  }
+  
+  .main-header-nav a + a,
+  .info-header-nav a + a {
+    margin-left: 70px;
+  }
+  
+  .info-header-nav {
+    color: #000;;
+    margin-left: auto;
+  }
+  
+  .inner {
+    height: 100vh;
+    min-height: 1900px;
+    background: url("../img/background.png");
+    padding-top: 0px;
+    
+  }
+  .inner-photogallary {
+    height: 100vh;
+    max-height: 945px;
+    max-width: 1920px;
+    background: url("../img/background.png");
+  }
+  .inner-contact {
+    height: 100vh;
+    max-height: 900px;
+    max-width: 1920px;
+    background: url("../img/background.png");
+  }
+  .photogallary-list {
+    max-width: 396px;
+    margin-left: 94px;
+    margin-top: 25px;
+  }
+  .photogallary-list-item {
+    width: 396px;
+    height: 340px;
+  }
+  .container-photogallary-title {
+    margin-top: 35px;
+    margin-left: 94px;
+    background: rgba(0, 0, 0, 0.86);
+    display: inline-block;
+    max-width: 1730px;
+    max-height: 168px;
+  }
+  .container-contact {
+    margin-top: 35px;
+    margin-left: 94px;
+    background: rgba(0, 0, 0, 0.86);
+    display: inline-block;
+    width: 895px;
+    height: 616px;
+  }
+  .container-contact-map {
+    margin-top: 35px;
+    margin-left: 122px;
+    width: 714px;
+    height: 616px;
+  }
+  .photogallary-title-text {
+    color: #FBF3F3;
+    text-align: center;
+    font-size: 48px;
+  }
+  .head-block {
+    margin-left: 73px;
+  }
+  
+  .inner-call-to-action {
+    position: relative;
+  }
+  
+  .call-to-action-title {
+    color: #FBF3F3;
+    font-family: Playfair Display;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .back-for-text {
+    background: rgba(0, 0, 0, 0.86);
+    display: inline-block;
+    padding: 30px 30px 30px 30px;
+    max-width: 1200px;
+  }
+
+  .call-to-action-desq {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .head-image-box {
+    margin-top: 122px;
+    margin-left: 66px;
+    width: 505px;
+    height: 492px;
+    flex-shrink: 0;
+    border-radius: 73px;
+    background: url("../img/cute-cloud.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .call-to-action-desq >span {
+    color: #36a7b9;
+    font-weight: 700;
+  }
+  
+  .test-your-email {
+    display: inline-block;
+  }
+  
+  .email-not-required {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+  
+  .email-not-required span {
+    margin-left: 15px;
+  }
+  
+  .inner-services-wrap {
+    margin-top: 95px;
+    
+  }
+  
+  .inner-services-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.29;
+    margin-bottom: 30px;
+    color: #fff;
+    max-width: 365px;
+  }
+  inner-services-list {
+    max-width: 164px;
+  }
+
+  .inner-service-list-item {
+    margin-top: 48px;
+    width: 423px;
+    height: 248px;
+    cursor: pointer;
+  }
+  
+  .inner-service-list-item + .inner-service-list-item {
+    margin-top: 10px;
+  }
+  .photogallary-list-item + .photogallary-list-item {
+    margin-left: 48px;
+  }
+  
+  .inner-service-list-item:hover {
+    background-color: #fff;
+  }
+  .width-text {
+    margin-left: 73px;
+    background: rgba(0, 0, 0, 0.86);
+    padding: 0px 30px 30px 30px;
+    max-width: 1774px;
+  }
+  .for-dop-text {
+    max-width: 1124px;
+    margin-right: 150px;
+  }
+  
+  .call-to-action-desq-down {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .contact-title-text {
+    color: #FBF3F3;
+    text-align: left;
+    font-size: 32px;
+    margin-left: 53px;
+  }
